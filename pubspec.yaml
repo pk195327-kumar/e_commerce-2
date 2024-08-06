@@ -48,6 +48,8 @@ dependencies:
   get_storage: ^2.1.1
   connectivity_plus: ^6.0.4
   firebase_storage: ^12.1.2
+  flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.2.0+3
 
 dev_dependencies:
   flutter_test:
@@ -65,17 +67,22 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/icons/
+    - assets/images/on_boarding_images/
+    - assets/logos/t-store-splash-logo-black.png
+    - assets/logos/t-store-splash-logo-white.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
+
+
+
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - assets/icons
-    - assets/images
-    - assets/logos
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
